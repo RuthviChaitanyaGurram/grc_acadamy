@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GRC ACADAMY</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>GRC ACADAMY</h1>
+    <p>Central + AP Government Exams | Quick methods, tricks, and clear explanations</p>
+  </header>
+
+  <main class="container">
+    <section class="controls card">
+      <h2>Practice Setup</h2>
+      <div class="grid">
+        <label>
+          Exam Focus
+          <select id="examFilter">
+            <option value="all">All</option>
+            <option value="central">Central Exams</option>
+            <option value="ap">AP Government Exams</option>
+          </select>
+        </label>
+        <label>
+          Topic
+          <select id="topicFilter">
+            <option value="all">All Topics</option>
+          </select>
+        </label>
+        <label>
+          Questions
+          <input id="questionCount" type="number" min="1" max="500" value="5" />
+        </label>
+        <label>
+          Time/Question (seconds)
+          <input id="secondsPerQuestion" type="number" min="15" max="180" value="30" />
+        </label>
+        <label>
+          Mode
+          <select id="practiceMode">
+            <option value="exam">Exam Mode (timer + submit)</option>
+            <option value="learn">Learn Mode (show solution instantly)</option>
+            <option value="mock">Mock Test Mode (score + analysis)</option>
+          </select>
+        </label>
+        <label>
+          <span>Negative Marking</span>
+          <select id="negativeMarking">
+            <option value="off">Off</option>
+            <option value="on">On (-0.25 each wrong)</option>
+          </select>
+        </label>
+      </div>
+      <p id="dataStatus"></p>
+      <button id="startBtn" class="primary">Start Practice</button>
+      <a href="admin.html" class="secondary tool-link">Bulk Upload Tool</a>
+    </section>
+
+    <section id="quizSection" class="card hidden">
+      <div class="quiz-head">
+        <div>
+          <strong id="questionMeta"></strong>
+          <p id="questionTopic"></p>
+        </div>
+        <div class="timer-wrap">
+          <span>Time Left:</span>
+          <strong id="timer">30s</strong>
+        </div>
+      </div>
+
+      <h3 id="questionText"></h3>
+      <div id="options" class="options"></div>
+
+      <div class="actions">
+        <button id="submitBtn" class="primary">Submit Answer</button>
+        <button id="nextBtn" class="secondary hidden">Next Question</button>
+      </div>
+
+      <article id="feedback" class="feedback hidden"></article>
+    </section>
+
+    <section id="resultSection" class="card hidden">
+      <h2>Your Result</h2>
+      <p id="scoreLine"></p>
+      <div id="resultDetails"></div>
+      <button id="restartBtn" class="primary">Practice Again</button>
+    </section>
+  </main>
+
+  <script src="data/manifest.js"></script>
+  <script src="manifest.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
