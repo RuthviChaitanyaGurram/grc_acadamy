@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "exam": "central",
+    "topic": "Quantitative Aptitude",
+    "question": "A train 120 m long passes a pole in 6 seconds. What is its speed in km/h?",
+    "options": ["54", "60", "72", "80"],
+    "answerIndex": 2,
+    "explanation": "Speed = Distance / Time = 120 / 6 = 20 m/s. Convert to km/h: 20 x 3.6 = 72 km/h.",
+    "trick": "Quick conversion: m/s to km/h multiply by 3.6."
+  },
+  {
+    "id": 2,
+    "exam": "central",
+    "topic": "Reasoning",
+    "question": "Find the odd one out.",
+    "options": ["2, 3, 5, 7", "11, 13, 17, 19", "23, 29, 31, 37", "39, 41, 43, 47"],
+    "answerIndex": 3,
+    "explanation": "In option D, 39 is not prime (39 = 3 x 13). Other groups contain only prime numbers.",
+    "trick": "For prime checks, test small divisors 2, 3, 5 first."
+  },
+  {
+    "id": 3,
+    "exam": "ap",
+    "topic": "Polity",
+    "question": "Who is the constitutional head of a state in India?",
+    "options": ["Chief Minister", "Governor", "Speaker", "Chief Justice"],
+    "answerIndex": 1,
+    "explanation": "Governor is the constitutional head of a state; CM is the real executive head.",
+    "trick": "Union -> President, State -> Governor."
+  },
+  {
+    "id": 4,
+    "exam": "ap",
+    "topic": "History",
+    "question": "Who founded the Vijayanagara Empire?",
+    "options": ["Krishnadevaraya", "Harihara and Bukka", "Devaraya II", "Achyuta Raya"],
+    "answerIndex": 1,
+    "explanation": "Vijayanagara Empire was founded in 1336 by Harihara and Bukka.",
+    "trick": "Remember pair + year: Harihara-Bukka, 1336."
+  },
+  {
+    "id": 5,
+    "exam": "central",
+    "topic": "General Science",
+    "question": "Which vitamin is synthesized in the skin on sunlight exposure?",
+    "options": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
+    "answerIndex": 3,
+    "explanation": "Sunlight helps skin produce Vitamin D, important for bone health.",
+    "trick": "D for Daylight."
+  },
+  {
+    "id": 6,
+    "exam": "ap",
+    "topic": "Geography",
+    "question": "Which is the longest river in Andhra Pradesh?",
+    "options": ["Godavari", "Krishna", "Penna", "Vamsadhara"],
+    "answerIndex": 0,
+    "explanation": "Godavari is the longest major river flowing through Andhra Pradesh.",
+    "trick": "Largest AP river basin -> Godavari."
+  },
+  {
+    "id": 7,
+    "exam": "central",
+    "topic": "English",
+    "question": "Choose the correctly spelt word.",
+    "options": ["Accomodation", "Acommodation", "Accommodation", "Accommmodation"],
+    "answerIndex": 2,
+    "explanation": "Correct spelling is Accommodation (double c and double m).",
+    "trick": "Remember pattern: acc + omm + odation."
+  },
+  {
+    "id": 8,
+    "exam": "ap",
+    "topic": "Current Affairs",
+    "question": "Andhra Pradesh was bifurcated to create Telangana in which year?",
+    "options": ["2012", "2013", "2014", "2015"],
+    "answerIndex": 2,
+    "explanation": "AP Reorganisation came into effect in 2014.",
+    "trick": "Link with 2014 election timeline."
+  },
+  {
+    "id": 9,
+    "exam": "central",
+    "topic": "Quantitative Aptitude",
+    "question": "A shopkeeper gives 10% discount on a Rs. 1500 bag. What is selling price?",
+    "options": ["Rs. 1250", "Rs. 1350", "Rs. 1400", "Rs. 1450"],
+    "answerIndex": 1,
+    "explanation": "10% of 1500 is 150. Selling price = 1500 - 150 = 1350.",
+    "trick": "For 10% discount, just move decimal one place and subtract."
+  },
+  {
+    "id": 10,
+    "exam": "central",
+    "topic": "Quantitative Aptitude",
+    "question": "A worker earns Rs. 750 per day. What will be his earning for 24 days?",
+    "options": ["Rs. 16,500", "Rs. 17,250", "Rs. 18,000", "Rs. 18,500"],
+    "answerIndex": 2,
+    "explanation": "750 x 24 = 750 x (20 + 4) = 15000 + 3000 = 18000.",
+    "trick": "Split multiplier: x24 = x20 + x4."
+  },
+  {
+    "id": 11,
+    "exam": "central",
+    "topic": "Reasoning",
+    "question": "If in a code CAT = 24, DOG = 26, then BAT = ? (A=1, B=2 ... Z=26)",
+    "options": ["21", "23", "24", "25"],
+    "answerIndex": 1,
+    "explanation": "B(2) + A(1) + T(20) = 23.",
+    "trick": "Memorize key letters: A1, M13, Z26 for fast sums."
+  },
+  {
+    "id": 12,
+    "exam": "central",
+    "topic": "General Science",
+    "question": "Boiling point of water at sea level is:",
+    "options": ["90 C", "95 C", "100 C", "105 C"],
+    "answerIndex": 2,
+    "explanation": "At standard atmospheric pressure, water boils at 100 C.",
+    "trick": "Remember fixed benchmark: freeze 0 C, boil 100 C."
+  },
+  {
+    "id": 13,
+    "exam": "central",
+    "topic": "English",
+    "question": "Choose the correct sentence.",
+    "options": ["He do not like coffee.", "He does not likes coffee.", "He does not like coffee.", "He not like coffee."],
+    "answerIndex": 2,
+    "explanation": "With 'does not', use base verb form: like.",
+    "trick": "Does/Did + base verb always."
+  },
+  {
+    "id": 14,
+    "exam": "central",
+    "topic": "Current Affairs",
+    "question": "Which body presents the Union Budget in India?",
+    "options": ["NITI Aayog", "Ministry of Finance", "RBI", "Election Commission"],
+    "answerIndex": 1,
+    "explanation": "Union Budget is presented by the Finance Minister under Ministry of Finance.",
+    "trick": "Budget -> Finance Ministry."
+  },
+  {
+    "id": 15,
+    "exam": "ap",
+    "topic": "Quantitative Aptitude",
+    "question": "A bus travels 180 km in 4 hours. Find average speed.",
+    "options": ["35 km/h", "40 km/h", "45 km/h", "50 km/h"],
+    "answerIndex": 2,
+    "explanation": "Average speed = total distance / total time = 180 / 4 = 45 km/h.",
+    "trick": "Use S = D/T directly; cancel common factors first."
+  },
+  {
+    "id": 16,
+    "exam": "ap",
+    "topic": "Reasoning",
+    "question": "Find the next number: 3, 6, 12, 24, ?",
+    "options": ["30", "36", "42", "48"],
+    "answerIndex": 3,
+    "explanation": "Each number is multiplied by 2. So next is 24 x 2 = 48.",
+    "trick": "Check common patterns: +, -, x, / in order."
+  },
+  {
+    "id": 17,
+    "exam": "ap",
+    "topic": "Polity",
+    "question": "Minimum age to become a Member of Lok Sabha is:",
+    "options": ["21", "25", "30", "35"],
+    "answerIndex": 1,
+    "explanation": "Minimum age for Lok Sabha membership is 25 years.",
+    "trick": "Lok Sabha 25, Rajya Sabha 30."
+  },
+  {
+    "id": 18,
+    "exam": "ap",
+    "topic": "History",
+    "question": "Who among the following is known as Andhra Kesari?",
+    "options": ["Tanguturi Prakasam", "Potti Sriramulu", "Alluri Sitarama Raju", "N.T. Rama Rao"],
+    "answerIndex": 0,
+    "explanation": "Tanguturi Prakasam Pantulu is known as Andhra Kesari.",
+    "trick": "Andhra Kesari -> Prakasam."
+  },
+  {
+    "id": 19,
+    "exam": "ap",
+    "topic": "Geography",
+    "question": "The capital city of Andhra Pradesh is currently:",
+    "options": ["Vijayawada", "Visakhapatnam", "Amaravati", "Kurnool"],
+    "answerIndex": 2,
+    "explanation": "Amaravati is the capital city notified for Andhra Pradesh.",
+    "trick": "AP capital in static GK -> Amaravati."
+  },
+  {
+    "id": 20,
+    "exam": "ap",
+    "topic": "General Science",
+    "question": "Which blood group is known as universal donor?",
+    "options": ["A+", "B-", "O-", "AB+"],
+    "answerIndex": 2,
+    "explanation": "O negative blood can be given to patients of all blood groups in emergencies.",
+    "trick": "Universal donor starts with O."
+  },
+  {
+    "id": 21,
+    "exam": "central",
+    "topic": "Quantitative Aptitude",
+    "question": "A water tank fills at 20 liters per minute. How much water fills in 45 minutes?",
+    "options": ["700 L", "800 L", "900 L", "1000 L"],
+    "answerIndex": 2,
+    "explanation": "Quantity = rate x time = 20 x 45 = 900 liters.",
+    "trick": "Break 45 as 9 x 5: 20 x 45 = (2 x 45) x 10."
+  },
+  {
+    "id": 22,
+    "exam": "central",
+    "topic": "Reasoning",
+    "question": "Pointing to a woman, Ravi says: 'She is the daughter of my mother's only son.' Who is she to Ravi?",
+    "options": ["Sister", "Daughter", "Niece", "Mother"],
+    "answerIndex": 1,
+    "explanation": "Ravi's mother's only son is Ravi himself. So woman is daughter of Ravi.",
+    "trick": "In blood relation, rewrite statement step by step."
+  },
+  {
+    "id": 23,
+    "exam": "ap",
+    "topic": "Current Affairs",
+    "question": "In government exams, RTI stands for:",
+    "options": ["Right to Information", "Rule to Investigate", "Right to Inspect", "Road Transport India"],
+    "answerIndex": 0,
+    "explanation": "RTI stands for Right to Information Act, 2005.",
+    "trick": "RTI is a rights-based transparency law."
+  },
+  {
+    "id": 24,
+    "exam": "ap",
+    "topic": "English",
+    "question": "Choose the synonym of 'Rapid'.",
+    "options": ["Slow", "Quick", "Weak", "Late"],
+    "answerIndex": 1,
+    "explanation": "Rapid means fast or quick.",
+    "trick": "RAPID ~ FAST in one-word substitution."
+  }
+]

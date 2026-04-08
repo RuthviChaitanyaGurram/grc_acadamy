@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GRC ACADAMY - Bulk Upload Tool</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>GRC ACADAMY - Bulk Upload</h1>
+    <p>Convert CSV into topic file for large-scale questions</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Step 1: Topic Metadata</h2>
+      <div class="grid">
+        <label>
+          Topic File Key
+          <input id="topicKey" placeholder="central_quantitative_aptitude" />
+        </label>
+        <label>
+          Exam
+          <select id="examType">
+            <option value="central">central</option>
+            <option value="ap">ap</option>
+          </select>
+        </label>
+        <label>
+          Topic Name
+          <input id="topicName" placeholder="Quantitative Aptitude" />
+        </label>
+      </div>
+      <p class="help-text">Topic file key should match manifest key and filename.</p>
+    </section>
+
+    <section class="card">
+      <h2>Step 2: Upload or Paste CSV</h2>
+      <input id="csvFile" type="file" accept=".csv,text/csv" />
+      <p class="help-text">
+        CSV header format:
+        <code>id,question,optionA,optionB,optionC,optionD,answerLetter,explanation,trick</code>
+      </p>
+      <textarea id="csvText" placeholder="Paste CSV rows here..."></textarea>
+      <div class="actions">
+        <button id="parseBtn" class="primary">Parse CSV</button>
+      </div>
+      <p id="parseStatus" class="help-text"></p>
+    </section>
+
+    <section class="card">
+      <h2>Step 3: Preview + Download Topic File</h2>
+      <textarea id="outputText" readonly></textarea>
+      <div class="actions">
+        <button id="downloadBtn" class="primary">Download Topic JS</button>
+        <a class="secondary tool-link" href="index.html">Back to Practice</a>
+      </div>
+      <p class="help-text">
+        After download, move file to <code>data/topics/</code> and add an entry in <code>data/manifest.js</code>.
+      </p>
+    </section>
+  </main>
+
+  <script src="admin.js"></script>
+</body>
+</html>
